@@ -1,0 +1,22 @@
+article {
+  width: 100%;
+  display: inline-block;
+  transition: box-shadow 0.2s ease;
+  margin:40px 10px 0 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+article:hover {
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
+article > img {
+  width: inherit;
+  border-radius: 5px 5px 0 0;
+}
+
+article > p {
+  padding: 10px 15px;
+}

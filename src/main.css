@@ -1,0 +1,10 @@
+main {
+  display: flex;
+  background-color: #eee;
+  justify-content: center;
+}
+
+.container {
+  column-count: 3;
+  width:75%;
+}
